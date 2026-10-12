@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chilli Hub - Get Key System</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background: #0f0f15; color: #fff; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .card { background: #1a1a24; padding: 30px; border-radius: 12px; box-shadow: 0 8px 24px rgba(255, 69, 0, 0.2); width: 360px; text-align: center; border: 1px solid #ff4500; }
+        h1 { color: #ff4500; font-size: 24px; margin-bottom: 10px; }
+        p { color: #aaa; font-size: 14px; margin-bottom: 20px; }
+        .btn { background: #ff4500; color: #fff; border: none; padding: 12px 20px; font-size: 16px; border-radius: 6px; cursor: pointer; font-weight: bold; width: 100%; transition: 0.3s; }
+        .btn:hover { background: #e03e00; }
+        .key-box { margin-top: 20px; background: #0f0f15; padding: 10px; border-radius: 6px; border: 1px dashed #444; word-break: break-all; font-family: monospace; color: #00ff88; display: none; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>🌶️ Chilli Hub Key</h1>
+    <p>Nhấn vào nút bên dưới để lấy Key miễn phí cho Roblox Script Steal An Egg.</p>
+    
+    <button class="btn" onclick="getKey()">LẤY KEY NGAY</button>
+
+    <div id="keyBox" class="key-box">
+        <span id="keyValue">CHILLI-FREE-2026</span>
+    </div>
+</div>
+
+<script>
+    function getKey() {
+        // Bạn có thể gắn link rút gọn kiếm tiền (Linkvertise, Workink...) ở đây trước khi hiển thị key
+        document.getElementById("keyBox").style.display = "block";
+        alert("Đã lấy Key thành công! Hãy sao chép key và dán vào game.");
+    }
+</script>
+
+</body>
+</html>
